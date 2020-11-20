@@ -62,6 +62,6 @@ int main()
     printf("Input: ");
     scanf("%i", &input);
     output = my_sqrt(input);
-    printf("Result: %i", output);
+    printf("Result: %i \n", output);
     return 0;
 }
