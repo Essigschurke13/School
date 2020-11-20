@@ -5,7 +5,7 @@
  * Author: Benedikt Stonig
  * Date: 26.10.2020
  * Description: BBOOOO -> B2O4
- *              OOOOOOOOOOOO -> O9O3
+ *              OOOOOOOOOOOO -> O12
  *
  */
 
@@ -13,28 +13,31 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX_RLEN 128
+#define MAX_RLEN 42
 
 //encode function: encodes given string to required output
 char* encode(char* input)
 {
+    int n = strlen(input);
     char* result = malloc(2 * MAX_RLEN * sizeof(char));
     int count;
     int i = 0;
     int j = 0;
 
-    while (i < strlen(input))
+    for (i; i < n; i++)
     {
         result[j] = input[i];
-        count = 0;
+        count = 1;
 
-        // count identical chars
-        while (result[j] == input[i] && count < 9)
-        {
-            i++;
-            count++;
-        }
-        
+        /**counts identical characters (count < 9 because if the count is greater than 9
+         * the count isn't appended correctly to the result, i couln't find a solution yet, 
+         * but i will search for one if i have time.
+         */
+		while (i < n - 1 && input[i] == input[i + 1] && count < 9) {
+			count++;
+			i++;
+		}
+
         // append char count to result string as `char`
         result[++j] = count + '0';
         j++;
