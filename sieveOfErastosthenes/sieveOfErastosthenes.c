@@ -4,6 +4,7 @@
  * Author: Benedikt Stonig 5AHEL
  * Date: 11.10.2020
  * Description: This Program calculates prime numbers using the sieve of erastosthenes.
+ * git-repo: https://github.com/Essigschurke13/School.git
  *
  */
 

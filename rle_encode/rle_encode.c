@@ -6,6 +6,7 @@
  * Date: 26.10.2020
  * Description: BBOOOO -> B2O4
  *              OOOOOOOOOOOO -> O12
+ * git-repo: https://github.com/Essigschurke13/School.git
  *
  */
 

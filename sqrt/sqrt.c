@@ -4,6 +4,7 @@
  * Author: Benedikt Stonig 5AHEL
  * Date: 30.09.2020
  * Description: This Program calculates the square root of the user input
+ * Git-repo: https://github.com/Essigschurke13/School.git
  *
  */
 
