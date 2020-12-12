@@ -1,0 +1,1 @@
+SELECT AVG(salary), COUNT(*) FROM employees;

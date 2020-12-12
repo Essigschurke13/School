@@ -1,0 +1,1 @@
+SELECT first_name, last_name, department_id FROM employees WHERE department_id == 30 OR department_id == 100 ORDER BY department_id ASC;

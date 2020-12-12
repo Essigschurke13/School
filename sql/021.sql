@@ -1,0 +1,1 @@
+SELECT first_name, last_name, salary, department_id FROM employees WHERE (department_id == 30 OR department_id == 100) AND (salary < 10000 OR salary > 15000);

@@ -1,0 +1,1 @@
+SELECT ROUND(MAX(salary)), ROUND(MIN(salary)), ROUND(SUM(salary)), ROUND(AVG(salary)) FROM employees;

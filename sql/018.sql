@@ -1,0 +1,1 @@
+SELECT first_name, last_name, ROUND(salary / 12, 2) FROM employees;

@@ -1,0 +1,1 @@
+SELECT LTRIM(RTRIM(first_name)) FROM employees;
