@@ -1,6 +1,7 @@
 *.exe
 *.zip
 *.txt
+*.xlsx
 
 build/
 .vscode/
