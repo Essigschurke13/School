@@ -1,6 +1,8 @@
-*.exe
-*.zip
-*.xlsx
+*exe
+*zip
+*xlsx
+*txt
+!CMakeLists.txt
 
 build/
 .vscode/
