@@ -3,6 +3,11 @@
 *xlsx
 *txt
 !CMakeLists.txt
+.west
+bootloader
+modules
+tools
+zephyr
 
 build/
 .vscode/
