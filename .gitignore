@@ -3,6 +3,7 @@
 *xlsx
 *txt
 !CMakeLists.txt
+__pycache__
 .west
 bootloader
 modules
